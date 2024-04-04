@@ -28,6 +28,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conteiner{
+  border: 1px solid #535bf2;
+  padding: 50px;
 }
 
 h1 {
