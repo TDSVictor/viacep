@@ -35,6 +35,8 @@ body {
 .conteiner{
   border: 1px solid #535bf2;
   padding: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
