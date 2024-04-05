@@ -32,16 +32,49 @@ body {
   flex-direction: column;
 }
 
-.conteiner{
-  border: 1px solid #535bf2;
-  padding: 50px;
-  justify-content: center;
+.container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.conteiner {
+  display: flex;
+  border: 1px solid #535bf2;
+  padding: 50px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteiner input{
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.enderecos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enderecos label{
+  display: flex;
+  align-self: flex-start;
+}
+
+.buttons-env button{
+  margin-left: 15px;
 }
 
 button {
